@@ -18,6 +18,7 @@ export default defineComponent({
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
     <HelloWorld msg="Vite + Vue" />
+    <mtd-button type="primary" @click="test"> 基础按钮 </mtd-button>
   </div>
 </template>
 
